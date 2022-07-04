@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+
+  # apache
+  web:
+      image: httpd
+      volumes:
+        - ./Frontend/www:/usr/local/apache2/htdocs
+      ports:
+        - "80:80"
+      
+      
+  # FastApi
+  fastapi:
+    build: ./Backend
+    ports:
+      - 5000:5000

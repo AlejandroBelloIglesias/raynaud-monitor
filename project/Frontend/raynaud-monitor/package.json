@@ -1,0 +1,38 @@
+{
+  "name": "raynaud-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "proserve": "vue-cli-service serve --mode production",
+    "testserve": "vue-cli-service serve --mode test",
+    "devserve": "vue-cli-service serve --mode development",
+    "probuild": "vue-cli-service build --mode production",
+    "testbuild": "vue-cli-service build --mode test",
+    "devbuild": "vue-cli-service build --mode development"
+  },
+  "dependencies": {
+    "apexcharts": "^3.35.3",
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14",
+    "vue-apexcharts": "^1.6.2",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "^2.5.0",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
